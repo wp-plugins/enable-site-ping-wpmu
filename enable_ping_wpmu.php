@@ -12,7 +12,7 @@ Author URI: http://sean-fisher.com/
  *	Enabling the site ping input on Options -> Writing.
 **/
 function enable_ping() {
-	remove_filter('enable_update_services_configuration', '__return_false');
+	remove_filter('enable_update_services_configuration', '_do_return_false');
 	add_filter( 'enable_update_services_configuration', '_do_return_true' );
 }
 
@@ -21,6 +21,13 @@ function enable_ping() {
 **/
 function _do_return_true() {
 	return true;
+}
+
+/**
+ * Return false
+**/
+function _do_return_false() {
+	return false;
 }
 
 /**

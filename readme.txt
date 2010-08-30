@@ -1,9 +1,9 @@
 === Enable Site Ping WPMU ===
-Contributors: talkingwithsean
+Contributors: sean212
 Tags: wpmu, ping, google, posts
 Requires at least: 2.5
 Tested up to: 3.0
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 == Description ==
 
